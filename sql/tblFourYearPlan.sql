@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS tblFourYearPlan (
     fldDateCreated varchar(8) DEFAULT NULL,
     fldCatalogYear varchar(9) DEFAULT NULL,
     fldMajor varchar(255) DEFAULT NULL,
-    fldMinor varchar(255) DEFAULT NULL,   
+    fldMinor varchar(255) DEFAULT NULL   
 )   ENGINE=InnoDB AUTO_INCREMENT=2228 DEFAULT CHARSET=utf8;
 
 INSERT INTO tblFourYear (pmkPlanId, fnkStudentId, fnkAdvisorId, fldDateCreated, fldCatalogYear, fldMajor, fldMinor) Values
