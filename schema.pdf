@@ -1,0 +1,63 @@
+
+Advisors
+
+CREATE TABLE IF NOT EXISTS tblAdvisors (
+    pmkAdvisorId mediumint(8) NOT NULL PRIMARY KEY,
+    fnkStudentId mediumint(8) DEFAULT NULL,
+    fldFirstName varchar(255) DEFAULT NULL,
+    fldLastName varchar(255) DEFAULT NULL,
+)
+
+Courses
+
+CREATE TABLE IF NOT EXISTS tblCourses (
+pmkCourseId int(11) NOT NULL,
+  fldCourseNumber int(11) NOT NULL,
+  fldCourseName varchar(250) NOT NULL,
+  fldDepartment varchar(5) NOT NULL,
+  fldCredits tinyint(4) NOT NULL DEFAULT '3'
+)
+
+Four Year Plan
+
+CREATE TABLE IF NOT EXISTS tblFourYearPlan (
+    pmkPlanId mediumint(8) NOT NULL PRIMARY KEY,
+    fnkStudentId mediumint(8) DEFAULT NULL,
+    fnkAdvisorId mediumint(8) DEFAULT NULL,
+    fldDateCreated varchar(8) DEFAULT NULL,
+    fldCatalogYear varchar(9) DEFAULT NULL,
+    fldMajor varchar(255) DEFAULT NULL,
+    fldMinor varchar(255) DEFAULT NULL,
+    fldNumCredits mediumint(2) DEFAULT NULL,
+)
+
+Semester Plan
+
+CREATE TABLE IF NOT EXISTS tblSemesterPlan (
+    fnkSemester varchar(50) DEFAULT NULL,
+    fnkYear varchar(50) DEFAULT NULL,
+    fnkStudentId varchar (255) DEFAULT NULL,
+    fldDisplayOrder mediumint(20) DEFAULT NULL
+)
+
+Semester Plan Courses
+
+CREATE TABLE IF NOT EXISTS tblSemesterPlanCourses (
+    fnkYear varchar(50) DEFAULT NULL,
+    fnkPlanId varchar(255) DEFAULT NULL,
+    fnkSemester varchar(50) DEFAULT NULL,
+    fnkCourseID int(11) DEFAULT NULL,
+    fldDisplayOrder int(20) DEFAULT NULL
+)
+
+Students 
+
+CREATE TABLE IF NOT EXISTS tblStudents (
+  pmkStudentId mediumint(8) unsigned NOT NULL PRIMARY KEY,
+  fldFirstName varchar(255) DEFAULT NULL,
+  fldLastName varchar(255) DEFAULT NULL,
+  fldAdvisor varchar(255) DEFAULT NULL,
+  fldMajor varchar(255) DEFAULT NULL,
+  fldMinor varchar(255) DEFAULT NULL
+)
+ 
