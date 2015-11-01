@@ -47,7 +47,6 @@ INSERT INTO tblCourses (pmkCourseId, fldCourseNumber, fldCourseName, fldDepartme
 (1968, 105, 'Exploring Writing Centers', 'ENGS', 3),
 (89, 2, 'Elementary Japanese II', 'JAPN', 4),
 (314, 224, 'Algorith Design & Analysis', 'CS', 3),
-(1122, 205, 'Software Engineering', 'CS', 3),
 (1712, 0, 'OSSP  Fall', 'OSSP', 12),
 (1713, 0, 'OSSP Fall Cont from Summer', 'OSSP', 12),
 (1757, 0, 'Varsity: Women''s X-Country', 'PEAC', 1),

@@ -43,7 +43,7 @@ INSERT INTO tblSemesterPlanCourses (fnkYear, fnkPlanId, fnkSemester, fnkCourseId
 (2016, 1, 'Fall', 1392, 7),
 (2016, 1, 'Fall', 1242, 7),
 (2017, 1, 'Spring', 314, 8),
-(2017, 1, 'Spring', 1122, 8),
+(2017, 1, 'Spring', 395, 8),
 (2017, 1, 'Spring', 834, 8),
 (2017, 1, 'Spring', 1885, 8),
 (2017, 1, 'Spring', 1243, 8);
