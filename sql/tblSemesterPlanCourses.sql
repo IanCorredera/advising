@@ -16,7 +16,7 @@ INSERT INTO tblSemesterPlanCourses (fnkYear, fnkPlanId, fnkSemester, fnkCourseId
 (2014, 1, 'Spring', 5137, 2),
 (2014, 1, 'Spring', 1414, 2),
 (2014, 1, 'Spring', 1925, 2),
-(2014, 1, 'Spring', 5769, 2),
+(2014, 1, 'Spring', 6769, 2),
 (2014, 1, 'Summer', 381, 3),
 (2014, 1, 'Summer', 1296, 3),
 (2014, 1, 'Summer', 383, 3),

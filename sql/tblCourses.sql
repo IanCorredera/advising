@@ -43,7 +43,7 @@ INSERT INTO tblCourses (pmkCourseId, fldCourseNumber, fldCourseName, fldDepartme
 (5650, 51, 'The Personal Essay', 'ENGS', 3),
 (5233, 1, 'Intro to Environmental Studies', 'ENVS', 4),
 (5137, 145, 'Killing Things', 'PHIL', 3),
-(5769, 20, 'D2: Literatures of Globalizatn', 'WLIT', 3),
+(6769, 20, 'D2: Literatures of Globalizatn', 'WLIT', 3),
 (5968, 105, 'Exploring Writing Centers', 'ENGS', 3),
 (5589, 2, 'Elementary Japanese II', 'JAPN', 4),
 (5314, 224, 'Algorith Design & Analysis', 'CS', 3),
